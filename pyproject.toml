@@ -1,0 +1,19 @@
+[project]
+name = "termgenie"
+version = "0.1.0"
+description = "About"
+authors = [
+    {name = "AI-powered command-line assistant that combines Linux terminal control with LLM intelligence using Python and LangChain."}
+]
+license = {text = "MIT"}
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "openai (>=1.99.9,<2.0.0)",
+    "rich (>=14.1.0,<15.0.0)"
+]
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"

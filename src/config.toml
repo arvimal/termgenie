@@ -1,0 +1,16 @@
+# TermGenie configuration
+#
+[defaults]
+model = openai.model
+
+[openai]
+model = "gpt-4o-mini"
+temperature = 0.7
+
+[openai.messages]
+system_prompt = "You are TermGenie, a helpful AI assistant for Linux System Administrators and Users"
+max tokens = 500
+
+[local_models]
+model = "ollama"
+type = "ollama3.3"
